@@ -1,0 +1,26 @@
+ul.grid-n_3 li {
+  width: calc(100% / 3 - 10px + 10px / 3);
+  float: left;
+}
+ul.grid-n_3 li:not(:nth-child(3n + 1)) {
+  margin-left: 10px;
+}
+ul.grid-n_3 li:nth-child(n + 4) {
+  margin-top: 10px;
+}
+ul.grid-n_3 li:nth-child(3n + 1) {
+  clear: left;
+}
+ul.grid-n_4 li {
+  width: calc(100% / 4 - 10px + 10px / 4);
+  float: left;
+}
+ul.grid-n_4 li:not(:nth-child(4n + 1)) {
+  margin-left: 10px;
+}
+ul.grid-n_4 li:nth-child(n + 5) {
+  margin-top: 10px;
+}
+ul.grid-n_4 li:nth-child(4n + 1) {
+  clear: left;
+}
